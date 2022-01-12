@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="xilinx.gnu.arm.a53.linux.exe.release.1179826032">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="xilinx.gnu.arm.a53.linux.exe.release.1179826032" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.xilinx.sdk.managedbuilder.XELF.arm.a53.linux" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="xilinx.gnu.arm.a53.linux.exe.release.1179826032" name="Release" parent="xilinx.gnu.arm.a53.linux.exe.release">
+					<folderInfo id="xilinx.gnu.arm.a53.linux.exe.release.1179826032." name="/" resourcePath="">
+						<toolChain id="xilinx.gnu.arm.a53.linux.exe.release.toolchain.972949364" name="Xilinx ARM v8 GNU/Linux Toolchain" superClass="xilinx.gnu.arm.a53.linux.exe.release.toolchain">
+							<targetPlatform binaryParser="com.xilinx.sdk.managedbuilder.XELF.arm.a53.linux" id="xilinx.arm.a53.linux.target.gnu.base.release.1264979867" isAbstract="false" name="Release Platform" superClass="xilinx.arm.a53.linux.target.gnu.base.release"/>
+							<builder buildPath="${workspace_loc:/ZCU104_FFT_CHECK}/Release" enableAutoBuild="true" id="xilinx.gnu.arm.a53.linux.toolchain.builder.release.1927529457" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU make" superClass="xilinx.gnu.arm.a53.linux.toolchain.builder.release"/>
+							<tool id="xilinx.gnu.arm.a53.linux.c.toolchain.assembler.release.686451749" name="ARM v8 Linux gcc assembler" superClass="xilinx.gnu.arm.a53.linux.c.toolchain.assembler.release">
+								<inputType id="xilinx.gnu.assembler.input.857514509" superClass="xilinx.gnu.assembler.input"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.a53.linux.c.toolchain.compiler.release.303874072" name="ARM v8 Linux gcc compiler" superClass="xilinx.gnu.arm.a53.linux.c.toolchain.compiler.release">
+								<option defaultValue="gnu.c.optimization.level.more" id="xilinx.gnu.compiler.option.optimization.level.899336765" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.option.debugging.level.623780515" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="xilinx.gnu.arm.a53.linux.c.compiler.input.803569076" name="C source files" superClass="xilinx.gnu.arm.a53.linux.c.compiler.input"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.a53.linux.cxx.toolchain.compiler.release.816129971" name="ARM v8 Linux g++ compiler" superClass="xilinx.gnu.arm.a53.linux.cxx.toolchain.compiler.release">
+								<option defaultValue="gnu.c.optimization.level.more" id="xilinx.gnu.compiler.option.optimization.level.2054501057" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="xilinx.gnu.compiler.option.debugging.level.182650828" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.a53.linux.toolchain.archiver.1787253215" name="ARM v8 Linux archiver" superClass="xilinx.gnu.arm.a53.linux.toolchain.archiver"/>
+							<tool id="xilinx.gnu.arm.a53.linux.c.toolchain.linker.release.1014920306" name="ARM v8 Linux gcc linker" superClass="xilinx.gnu.arm.a53.linux.c.toolchain.linker.release">
+								<option id="xilinx.gnu.c.link.option.libs.421658077" superClass="xilinx.gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+								</option>
+								<inputType id="xilinx.gnu.linker.input.527530642" superClass="xilinx.gnu.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+								<inputType id="xilinx.gnu.linker.input.lscript.392484113" name="Linker Script" superClass="xilinx.gnu.linker.input.lscript"/>
+							</tool>
+							<tool id="xilinx.gnu.arm.a53.linux.cxx.toolchain.linker.release.1084228358" name="ARM v8 Linux g++ linker" superClass="xilinx.gnu.arm.a53.linux.cxx.toolchain.linker.release"/>
+							<tool id="xilinx.gnu.arm.a53.linux.size.release.1559606746" name="ARM v8 Linux Print Size" superClass="xilinx.gnu.arm.a53.linux.size.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="ZCU104_FFT_CHECK.xilinx.gnu.arm.a53.linux.exe.1491582872" name="Xilinx ARM v8 Linux Executable" projectType="xilinx.gnu.arm.a53.linux.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="xilinx.gnu.arm.a53.linux.exe.debug.1463471912;xilinx.gnu.arm.a53.linux.exe.debug.1463471912.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.ARMA53LinuxGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="xilinx.gnu.arm.a53.linux.exe.release.1179826032;xilinx.gnu.arm.a53.linux.exe.release.1179826032.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.ARMA53LinuxGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="xilinx.gnu.arm.a53.linux.exe.release.1179826032;xilinx.gnu.arm.a53.linux.exe.release.1179826032.;xilinx.gnu.arm.a53.linux.c.toolchain.compiler.release.303874072;xilinx.gnu.arm.a53.linux.c.compiler.input.803569076">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.ARMA53LinuxGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="xilinx.gnu.arm.a53.linux.exe.debug.1463471912;xilinx.gnu.arm.a53.linux.exe.debug.1463471912.;xilinx.gnu.arm.a53.linux.c.toolchain.compiler.debug.216338874;xilinx.gnu.arm.a53.linux.c.compiler.input.535052633">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.ARMA53LinuxGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/ZCU104_FFT_CHECK"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/ZCU104_FFT_CHECK"/>
+		</configuration>
+	</storageModule>
+</cproject>
